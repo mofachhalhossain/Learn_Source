@@ -1,0 +1,14 @@
+.bg-custom {
+	background: #694444;
+}
+
+.navbar .nav-item .nav-link {
+	font-size: 18px;
+	color: white;
+}
+
+.navbar .nav-item:hover .nav-link {
+	background: #402b2b;
+	color: white;
+	border-radius: 10px;
+}
