@@ -17,7 +17,7 @@
 			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
-			<a href="#" class="btn btn-light mr-2"><i
+			<a href="login.jsp" class="btn btn-light mr-2"><i
 				class="fas fa-sign-in-alt"></i> Login </a> <a href="#"
 				class="btn btn-light"><i class="fas fa-user-plus"></i> Signup </a>
 		</form>
