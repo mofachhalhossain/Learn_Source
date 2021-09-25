@@ -12,13 +12,13 @@
 			<li class="nav-item active"><a class="nav-link" href="index.jsp">Home
 					<span class="sr-only">(current)</span>
 			</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Add Book</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">View Book</a>
+			<li class="nav-item"><a class="nav-link" href="addBook.jsp">Add Book</a></li>
+			<li class="nav-item"><a class="nav-link" href="viewBook.jsp">View Book</a>
 			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
-			<a href="#" class="btn btn-light mr-2"><i
-				class="fas fa-sign-in-alt"></i> Login </a> <a href="#"
+			<a href="login.jsp" class="btn btn-light mr-2"><i
+				class="fas fa-sign-in-alt"></i> Login </a> <a href="signup.jsp"
 				class="btn btn-light"><i class="fas fa-user-plus"></i> Signup </a>
 		</form>
 	</div>
