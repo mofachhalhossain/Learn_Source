@@ -12,7 +12,7 @@
 			<li class="nav-item active"><a class="nav-link" href="index.jsp">Home
 					<span class="sr-only">(current)</span>
 			</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Add Book</a></li>
+			<li class="nav-item"><a class="nav-link" href="addBook.jsp">Add Book</a></li>
 			<li class="nav-item"><a class="nav-link" href="#">View Book</a>
 			</li>
 		</ul>
