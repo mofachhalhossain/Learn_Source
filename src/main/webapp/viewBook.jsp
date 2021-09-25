@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>[Admin] View Books</title>
 <%@include file="component/css.jsp"%>
 </head>
 <body style="background-color: #7d5f5f">

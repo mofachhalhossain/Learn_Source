@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>[Admin] Add Book</title>
 <%@include file="component/css.jsp"%>
 <style type="text/css">
 #file-submit {
