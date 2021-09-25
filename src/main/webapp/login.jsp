@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 <%@include file="component/css.jsp"%>
 </head>
-<body>
+<body style="background-color: #7d5f5f">
 <%@include file="component/navbar.jsp"%>
 <div class="container-fluid">
     <div class="row p-5">
