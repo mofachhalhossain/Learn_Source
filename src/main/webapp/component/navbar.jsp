@@ -1,3 +1,5 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page isELIgnored="false" %>
 <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
 	<a class="navbar-brand mr-4" href="#">Bookie</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -12,8 +14,10 @@
 			<li class="nav-item active"><a class="nav-link" href="index.jsp">Home
 					<span class="sr-only">(current)</span>
 			</a></li>
+			<c:if test="${userObj.role eq 'admin'}">
 			<li class="nav-item"><a class="nav-link" href="addBook.jsp">Add Book</a></li>
 			<li class="nav-item"><a class="nav-link" href="viewBook.jsp">View Book</a>
+				</c:if>
 			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
