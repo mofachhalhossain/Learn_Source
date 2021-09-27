@@ -21,16 +21,16 @@
                     <form action="register" method="post">
                         <div class="form-group">
                             <label>Name</label>
-                            <input type="text" class="form-control" id="inputEmail1"
+                            <input type="text" class="form-control" id="inputName"
                             required="required" aria-describedby="emailHelp" name="name">
                         </div>
                         <div class="form-group">
                             <label>Email</label>
-                            <input type="text" class="form-control" id="inputEmail1"
+                            <input type="text" class="form-control" id="inputEmail"
                             required="required" aria-describedby="emailHelp" name="email">
                         </div>
                         <div class="form-group">
-                            <label for="inputPassword1">Password</label>
+                            <%--@declare id="inputpassword1"--%><label for="inputPassword1">Password</label>
                             <input type="text" class="form-control" id="inputEmail1"
                             required="required" aria-describedby="emailHelp" name="password">
                         </div>

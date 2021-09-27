@@ -50,13 +50,11 @@
 								</select>
 							</div>
 							<div class="form-group col-md-5" id="file-submit">
-								<form action="uploadFile" method="post"
-									enctype="multipart/form-data">
-									<input type="file" name="file" />
+								<input type="text" name="link" required
+									   class="form-control">
 									<div>
 										<input type="submit" name="upload" class="submit-file" />
 									</div>
-								</form>
 							</div>
 						</div>
 					</form>
