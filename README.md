@@ -24,12 +24,6 @@ Clone the project
   git clone https://github.com/mofachhalhossain/Learn_Source
 ```
 
-Go to the project directory
-
-```bash
-  cd my-project_directory
-```
-
 For run in eclipse
 
 ```bash
