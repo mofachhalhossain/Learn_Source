@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page isELIgnored="false" %>
 <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
-	<a class="navbar-brand mr-4" href="#">Bookie</a>
+	<a class="navbar-brand mr-4" href="index.jsp">Learn Source</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarSupportedContent"
 		aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -21,9 +21,18 @@
 			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
-			<a href="login.jsp" class="btn btn-light mr-2"><i
-				class="fas fa-sign-in-alt"></i> Login </a> <a href="signup.jsp"
-				class="btn btn-light"><i class="fas fa-user-plus"></i> Signup </a>
+			<c:if test="${not empty userObj}">
+				<a href="login.jsp" class="btn btn-light mr-2"><i
+						class="fas fa-sign-in-alt"></i> Admin </a>
+				<a href="signup.jsp"
+				   class="btn btn-light"><i class="fas fa-user-plus"></i> Logout </a>
+			</c:if>
+			<c:if test="${empty userObj}">
+				<a href="login.jsp" class="btn btn-light mr-2"><i
+						class="fas fa-sign-in-alt"></i> Login </a>
+				<a href="signup.jsp"
+				   class="btn btn-light"><i class="fas fa-user-plus"></i> Signup </a>
+			</c:if>
 		</form>
 	</div>
 </nav>
